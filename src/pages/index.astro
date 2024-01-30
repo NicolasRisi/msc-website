@@ -1,0 +1,96 @@
+---
+import { Picture } from "astro:assets";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Emilie from 'assets/team/emilie.jpeg';
+import Corto from 'assets/team/corto.jpeg';
+import Lucien from 'assets/team/lucien.jpg';
+
+---
+
+<Layout title="Skate Club">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Montreuil Skate Club</Fragment>
+      <Fragment slot="desc">La street n'attend pas.</Fragment>
+    </Sectionhead>
+
+    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+      <p class="text-lg leading-relaxed text-slate-500">
+Le Montreuil Skate Club, créé en 2022 par le regretté skateshop Phoenix et l'enthousiaste Emilie, a pour ambition
+de faire émerger la culture Skate à Montreuil. Plus qu'un simple lieu pour apprendre des tricks, ce club incarne
+la vraie essence du skate : la persévérance, l'entraide et une convivialité sans faille. Ici, chaque rider
+ trouve sa place.
+
+Les profs, Corto et Lucien, incarnent ces valeurs. Avec leur expérience et leur passion,
+ils ne se contentent pas d'enseigner le skate, mais transmettent un véritable art de vivre. Lucien, avec son style fluide et aérien,
+te guide dans les aspects techniques, tandis que Corto te pousse à dépasser tes limites, à explorer l'inconnu.
+Ce club n'est pas qu'un endroit où skater, c'est un lieu où grandir, où les différences s'estompent et où la passion pour
+la planche unit tout le monde.
+      </p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+      <div class="group">
+        <div class="w-full aspect-square">
+          <Picture
+            src={Corto}
+            alt="Emilie"
+            sizes="(max-width: 800px) 100vw, 400px"
+            width={400}
+            height={400}
+            class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
+          />
+        </div>
+
+        <div class="mt-4 text-center">
+          <h2 class="text-lg text-gray-800">Corto</h2>
+          <h3 class="text-sm text-slate-500">
+            Professeur
+          </h3>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="w-full aspect-square">
+          <Picture
+            src={Lucien}
+            alt="Emilie"
+            sizes="(max-width: 800px) 100vw, 400px"
+            width={400}
+            height={400}
+            class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
+          />
+        </div>
+
+        <div class="mt-4 text-center">
+          <h2 class="text-lg text-gray-800">Lucien</h2>
+          <h3 class="text-sm text-slate-500">
+            Professeur
+          </h3>
+        </div>
+      </div>
+      
+      <div class="group">
+        <div class="w-full aspect-square">
+          <Picture
+            src={Emilie}
+            alt="Emilie"
+            sizes="(max-width: 800px) 100vw, 400px"
+            width={400}
+            height={400}
+            class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
+          />
+        </div>
+
+        <div class="mt-4 text-center">
+          <h2 class="text-lg text-gray-800">Emilie</h2>
+          <h3 class="text-sm text-slate-500">
+            Fondatrice émérite
+          </h3>
+        </div>
+      </div>
+
+    </div>
+  </Container>
+</Layout>

@@ -1,0 +1,18 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import {Content} from '../components/infos-pratiques.md';
+---
+
+<Layout title="Informations Pratiques">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Informations pratiques</Fragment>
+      <Fragment slot="desc">Tout ce qu'il faut savoir.</Fragment>
+    </Sectionhead>
+    <div class="mx-auto prose prose-lg mt-6 max-w-3xl">
+      <Content />
+    </div>
+  </Container>
+</Layout>

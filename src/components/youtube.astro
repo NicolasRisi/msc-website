@@ -1,0 +1,22 @@
+---
+const { url } = Astro.props;
+---
+<style>
+    .video-responsive { 
+      overflow:hidden; 
+      padding-bottom:56.25%; 
+      position:relative; 
+      height:0;
+    }
+  
+    .video-responsive iframe {
+      left:0; 
+      top:0; 
+      height:100%;
+      width:100%;
+      position:absolute;
+    }
+</style>
+<div class="video-responsive">
+    <iframe width="560" height="315" src={url} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
