@@ -7,4 +7,6 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://www.montreuilskateclub.com",
   integrations: [tailwind(), mdx(), sitemap()],
+  publicDir: './public',
+  output: 'static'
 });
