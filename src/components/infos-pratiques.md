@@ -15,17 +15,25 @@ Pour adhérer, il suffit de nous ramener les élément suivants :
 
 ### Cours Collectifs
 
-#### *Horaires*
+#### *Horaires et tarifs*
 
-<u>Mercredi</u> : 17h à 19h (1h ou 2h possibles) au Gymnase Daniel Renoult
+**<u>Mercredi</u> :**  
+*Lieu* : Gymnase Daniel Renoult / Skatepark Grands Pêchers  
+*Informations* : Les jours de beau temps, les cours auront lieu au skatepark. En cas de pluie, les cours auront lieu dans le gymnase Daniel Renoult.  
 
-<u>Samedi</u> : 10h30 à 12h30 (1h ou 2h possibles) au Skatepark Croix de Chavaux
+- **17h à 18h** : Cours Débutants (6-10 ans) - **290 euros**
+- **18h à 19h** : Cours Intermédiaires (10ans +) - **290 euros**
 
-#### *Tarifs*
+**<u>Samedi</u> :**  
+*Lieu* : Skatepark Grands Pêchers  
+*Informations* : Les cours annulés en cas de pluie seront reportés aux beaux jours sous forme de stage !  
 
-15€ / heure  
-Carnet de 10 heures : 140€
+- **10h à 11h** : Cours Débutants (6-10 ans) - **290 euros**
+- **11h à 12h30** : Cours Intermédiaires (10 ans +) - **430 euros**
 
+**Informations complémentaires**
+- Les cours vont de 6 à 8 élèves.
+- La saison démarre le samedi 14 Septembre 2024 !
 
 ### Cours Particuliers
 
