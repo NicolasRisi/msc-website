@@ -2,8 +2,8 @@
 ---
 ### Adhésion
 
-L'adhésion au Montreuil Skate Club est obligatoire pour un montant de 45€.
-Grâce à l'adhésion, vous serez licencié de la Fédération Française de Roller & Skateboard et bénéficierez de son assurance.
+L'adhésion au Montreuil Skate Club est obligatoire pour un **montant de 45€**.
+Grâce à l'adhésion, vous serez **licencié de la Fédération Française de Roller & Skateboard** et bénéficierez de son assurance.
 Ce droit d’entrée au club vous permettra également de participer à tous les activités proposées par le Montreuil Skate Club.  
 
 Pour adhérer, il suffit de nous ramener les élément suivants :
