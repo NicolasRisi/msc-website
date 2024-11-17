@@ -42,4 +42,4 @@ Nous contacter
 
 #### *Tarifs*
 
-30€ / heure
+40€ / heure
